@@ -1,0 +1,180 @@
+/* ============================================================
+   PICO AQSYS — Design Tokens
+   ONE PICO. MANY CONNECTED. ONE AQSYS.
+   ============================================================ */
+
+:root {
+
+  /* ── Color Palette ─────────────────────────────────────── */
+
+  /* Primary — Forest Green */
+  --color-green-900: #1A2E24;
+  --color-green-800: #2B4438;
+  --color-green-700: #3A5C4C;
+  --color-green-600: #4A7460;
+  --color-green-500: #5B8C74;
+  --color-green-400: #7AA896;
+  --color-green-300: #9DC4B8;
+  --color-green-200: #C2DDD6;
+  --color-green-100: #E4F0EC;
+  --color-green-50:  #F2F8F6;
+
+  /* Accent — Gold / Amber */
+  --color-gold-900:  #3D2D08;
+  --color-gold-800:  #5C4410;
+  --color-gold-700:  #7A5B18;
+  --color-gold-600:  #8B6E2A;
+  --color-gold-500:  #A07C2C;
+  --color-gold-400:  #C49A3C;
+  --color-gold-300:  #D9B96A;
+  --color-gold-200:  #EDD9A3;
+  --color-gold-100:  #F7EDD0;
+  --color-gold-50:   #FCF7EA;
+
+  /* Neutral */
+  --color-neutral-900: #111814;
+  --color-neutral-800: #2A302C;
+  --color-neutral-700: #444D47;
+  --color-neutral-600: #5E6862;
+  --color-neutral-500: #788380;
+  --color-neutral-400: #99A6A1;
+  --color-neutral-300: #BBC7C3;
+  --color-neutral-200: #D9E2DF;
+  --color-neutral-100: #EDF2F0;
+  --color-neutral-50:  #F7F9F8;
+
+  /* Surface */
+  --color-surface-base:     #F7F5F0;   /* cream off-white — brand background */
+  --color-surface-raised:   #FFFFFF;
+  --color-surface-sunken:   #EEF0ED;
+  --color-surface-overlay:  rgba(27, 46, 36, 0.06);
+
+  /* Semantic */
+  --color-primary:        var(--color-green-800);
+  --color-primary-hover:  var(--color-green-700);
+  --color-primary-active: var(--color-green-900);
+  --color-accent:         var(--color-gold-600);
+  --color-accent-hover:   var(--color-gold-500);
+  --color-text-default:   var(--color-green-900);
+  --color-text-muted:     var(--color-neutral-600);
+  --color-text-subtle:    var(--color-neutral-400);
+  --color-text-inverse:   #FFFFFF;
+  --color-border-default: var(--color-neutral-200);
+  --color-border-strong:  var(--color-neutral-300);
+  --color-focus-ring:     var(--color-gold-400);
+
+  /* Status */
+  --color-success:  #3A7D55;
+  --color-warning:  #9B7A20;
+  --color-error:    #A03030;
+  --color-info:     var(--color-green-600);
+
+
+  /* ── Typography ────────────────────────────────────────── */
+
+  --font-display:  'Montserrat', 'Futura', 'Century Gothic', sans-serif;
+  --font-body:     'Inter', 'DM Sans', system-ui, sans-serif;
+  --font-mono:     'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+
+  /* Size scale — Major Third (1.25) */
+  --text-xs:   0.64rem;   /*  ~10px */
+  --text-sm:   0.8rem;    /*  ~13px */
+  --text-base: 1rem;      /*   16px */
+  --text-md:   1.25rem;   /*   20px */
+  --text-lg:   1.563rem;  /*   25px */
+  --text-xl:   1.953rem;  /*   31px */
+  --text-2xl:  2.441rem;  /*   39px */
+  --text-3xl:  3.052rem;  /*   49px */
+  --text-4xl:  3.815rem;  /*   61px */
+
+  /* Weight */
+  --font-weight-light:    300;
+  --font-weight-regular:  400;
+  --font-weight-medium:   500;
+  --font-weight-semibold: 600;
+  --font-weight-bold:     700;
+
+  /* Letter spacing */
+  --tracking-tight:   -0.02em;
+  --tracking-normal:   0;
+  --tracking-wide:     0.08em;
+  --tracking-wider:    0.16em;
+  --tracking-widest:   0.28em;
+
+  /* Line height */
+  --leading-none:    1;
+  --leading-tight:   1.2;
+  --leading-snug:    1.35;
+  --leading-normal:  1.5;
+  --leading-relaxed: 1.7;
+
+
+  /* ── Spacing ───────────────────────────────────────────── */
+
+  --space-1:   0.25rem;   /*  4px */
+  --space-2:   0.5rem;    /*  8px */
+  --space-3:   0.75rem;   /* 12px */
+  --space-4:   1rem;      /* 16px */
+  --space-5:   1.25rem;   /* 20px */
+  --space-6:   1.5rem;    /* 24px */
+  --space-8:   2rem;      /* 32px */
+  --space-10:  2.5rem;    /* 40px */
+  --space-12:  3rem;      /* 48px */
+  --space-16:  4rem;      /* 64px */
+  --space-20:  5rem;      /* 80px */
+  --space-24:  6rem;      /* 96px */
+  --space-32:  8rem;      /* 128px */
+
+
+  /* ── Radius ────────────────────────────────────────────── */
+
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   12px;
+  --radius-xl:   16px;
+  --radius-2xl:  24px;
+  --radius-full: 9999px;
+
+
+  /* ── Shadows ───────────────────────────────────────────── */
+
+  --shadow-xs:  0 1px 2px rgba(27, 46, 36, 0.06);
+  --shadow-sm:  0 2px 6px rgba(27, 46, 36, 0.08);
+  --shadow-md:  0 4px 14px rgba(27, 46, 36, 0.10);
+  --shadow-lg:  0 8px 28px rgba(27, 46, 36, 0.13);
+  --shadow-xl:  0 16px 48px rgba(27, 46, 36, 0.16);
+  --shadow-gold: 0 4px 20px rgba(139, 110, 42, 0.18);
+
+
+  /* ── Motion ────────────────────────────────────────────── */
+
+  --duration-fast:   120ms;
+  --duration-base:   200ms;
+  --duration-slow:   350ms;
+  --duration-slower: 500ms;
+  --ease-default:    cubic-bezier(0.25, 0.1, 0.25, 1);
+  --ease-spring:     cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-in:         cubic-bezier(0.4, 0, 1, 1);
+  --ease-out:        cubic-bezier(0, 0, 0.2, 1);
+
+
+  /* ── Z-index ───────────────────────────────────────────── */
+
+  --z-base:    0;
+  --z-raised:  10;
+  --z-overlay: 100;
+  --z-modal:   200;
+  --z-toast:   300;
+  --z-tooltip: 400;
+
+
+  /* ── Layout ────────────────────────────────────────────── */
+
+  --container-sm:  640px;
+  --container-md:  768px;
+  --container-lg:  1024px;
+  --container-xl:  1280px;
+  --container-2xl: 1440px;
+  --sidebar-width: 240px;
+  --topbar-height: 64px;
+}
